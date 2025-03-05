@@ -15,8 +15,7 @@ CREATE TABLE `Match` (
     Id INTEGER NOT NULL,
     Points INTEGER NOT NULL,
     Duration INTEGER NOT NULL,
-    Finish_time INTEGER NOT NULL,
-    FOREIGN KEY (Id) REFERENCES Player(Id)
+    Finish_time INTEGER NOT NULL
 ) ENGINE = InnoDB;
 
 INSERT INTO Player VALUES (1, 'polfernandez', 'Pol', 'pol.fernandez@gmail.com', 'contraseña');
